@@ -10,7 +10,7 @@ import java.util.Scanner;
 import java.sql.Timestamp;
 
 public class CanteenManagementSystem {
-    private static final String url = "jdbc:mysql://localhost:3306/canteen_db";
+    private static final String url = "jdbc:mysql://localhost:3306/canteen2_db";
     private static final String username = "root";
     private static final String password = "cherry07";
 
@@ -96,7 +96,7 @@ public class CanteenManagementSystem {
 
             System.out.println("------ Canteen Menu ------");
             System.out.println("+-------------+-----------------------+---------+--------------+");
-            System.out.println("| Dish Number | Dish Name | Price | Availability |");
+            System.out.println("| Dish Number |      Dish Name      |       Price   |   Availability   |");
             System.out.println("+-------------+-----------------------+---------+--------------+");
 
             while (resultSet.next()) {
