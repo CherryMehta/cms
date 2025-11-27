@@ -1,5 +1,5 @@
-CREATE DATABASE canteen_db;
-USE canteen_db;
+CREATE DATABASE canteen2_db;
+USE canteen2_db;
 CREATE TABLE menu ( dish_number INT PRIMARY KEY,dish_name VARCHAR(100) NOT NULL,price DECIMAL(10,2) NOT NULL,availability VARCHAR(20) DEFAULT 'Available'
 );
 
